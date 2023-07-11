@@ -39,9 +39,9 @@ window
 function setTheme(mode) {
     if (mode === "dark") {
         darkTheme.disabled = false;
-        toggle.className = "bi bi-sun";  
+        toggle.className = "bi bi-sun";
     } else if (mode === "light") {
         darkTheme.disabled = true;
         toggle.className = "bi bi-moon-stars"; 
     }
-} 
+}
