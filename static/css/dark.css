@@ -24,6 +24,9 @@ body * [style*="background-image"] {
   color: #000000;
 }
 
-.hero-search-control i {
+
+
+/* keep the search box looking like a search box even in dark mode */
+input[type="search"] {
   filter: invert(1);
 }
